@@ -10,7 +10,12 @@
             <div class="card-body">
                 <h5 class="card-title">{{item.name}}</h5>
                 <p class="card-text">${{item.price}}</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text">Only 10 left</p>
+                <a href="#" class="btn btn-primary"><form action="http://127.0.0.1:8000/checkout/#">
+                <input type="submit" value="Checkout" />
+            </form> </a>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Promotion Code?</a>
             </div>
         </div>
     </div>
