@@ -1,6 +1,6 @@
 # VirtualShop
 
-![VirtualShop](https://user-images.githubusercontent.com/46385457/65174399-d5104c80-da1e-11e9-8eff-fac639e4a7d8.png)
+![VirtualShop](https://user-images.githubusercontent.com/46385457/65198603-ac557a80-da51-11e9-846a-c5085b2a143a.png)
 
 
 
