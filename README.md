@@ -4,7 +4,7 @@
 A simple drop in menu that contains various items with certain prices 
 
 ## Home Page
-![Image description](https://github.com/erick576/VirtualShop/blob/master/Image/Home.PNG)
+
 
 ## Checkout Page
 ![Image description](https://github.com/erick576/VirtualShop/blob/master/Image/Checkout.PNG)
