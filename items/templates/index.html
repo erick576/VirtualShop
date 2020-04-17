@@ -5,20 +5,20 @@
 <div class="row">
     {% for item in items %}
     <div class="col">
-        <div class="card" style="width: 18rem;">
-            <img src="{{item.image_url}}" class="card-img-top" alt="...">
+        <div class="card mt-5" style="width: 20rem; height: 34rem;">
+            <img src="{{item.image_url}}" class="card-img-top" alt="..." class="col-md-4">
             <div class="card-body">
                 <h5 class="card-title">{{item.name}}</h5>
                 <p class="card-text">${{item.price}}</p>
                 <p class="card-text">Only 10 left</p>
-                <a href="#" class="btn btn-primary"><form action="http://127.0.0.1:8000/checkout/#">
-                <input type="submit" value="Checkout" />
+                <a href="#"><form action="http://127.0.0.1:8000/checkout/#">
+                <input type="submit" class="btn btn-dark" value="Checkout" />
             </form> </a>
                 <p class="card-text"></p>
-                <p>Promotion Code?</p>
-                <p></p>
-                 <input type href="#" class="btn btn-primary"><form action="http://127.0.0.1:8000/discountedCheckout/#">
-                <input type = "submit" value = "Enter Code"/>
+                <form action="http://127.0.0.1:8000/discountedCheckout/#">
+                <label for="discount">Promotion Code? (3 Digit Number)</label>
+                 <input type="number" href="#" class="btn btn-dark" name="discount" id="discount" min="100" max="999">
+                <input type = "submit" class="btn btn-dark waves-effect waves-light text-center" value = "Enter Code"/>
             </form>
             </div>
         </div>

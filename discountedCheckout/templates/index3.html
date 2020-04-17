@@ -1,17 +1,18 @@
+{% extends 'base2.html' %}
 {% block content %}
-<h1></h1>
-<div class="row">
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-<p class="card-text"> <font size="5" color="red">Congrats on your purchase!</font></p>
-<p class="card-text">Number Of Items: 1</p>
-<p class = "card-text">Price: $215.99</p>
-                <p>Discount: %10</p>
-<p class = "card-text">tax: %0.13</p>
-<p class = "card-text">Subtotal: $219.67</p>
-            </div>
-        </div>
-    </div>
+<div class="jumbotron mt-5">
+  <h1 class="display-4 center-text">Congrats on your purchase!</h1>
+  <p class="lead">Here Are the Details Of Your Purchase!</p>
+  <hr class="my-4">
+    <p class="card-text">Number Of Items: 1</p>
+    <p class = "card-text">Price: $215.99</p>
+    <p class = "card-text">Discount: %10</p>
+    <p class = "card-text">tax: %0.13</p>
+    <p class = "card-text">Subtotal: $219.67</p>
+    <p class="lead">
+    <form action="http://127.0.0.1:8000/items/#">
+    <input type = "submit" class="btn btn-dark waves-effect waves-light text-center" value = "Continue Shopping"/>
+    </form>
+  </p>
 </div>
 {% endblock %}
